@@ -1,0 +1,5 @@
+from ConferenceSoftware import app
+
+@app.route('/registration')
+def registration():
+	return render_template('registration.html')
